@@ -1,0 +1,341 @@
+#header{
+    background-image:url(bg1.jpg); 
+    width:1340px; height:150px;
+     position:absolute;
+     top:0px;
+}
+#htxt{
+     color:#fff; font-family: monospace; font-size:40px;
+     position:absolute; left:200px;
+}
+#htxt2{
+     color:#fff; font-family: monospace; font-size:30px;
+     position:absolute; left:200px; top:40px;
+}
+#logo { background-image:url(dpslogo.jpg) ;
+      position:absolute; top:0px; width:180px ; height:150px;
+}
+#email { position:absolute; top: 40px; right:120px;
+          color:#FFF; 
+                font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+                 font-size:24px;
+          }
+ 
+ 
+          
+.slider-wrap {
+  position: absolute;
+ top:200px; right:350px;
+  width: 600px;
+  height: 450px;
+   margin: 20px auto;
+    
+}
+.slider {
+  overflow-x:hidden;
+}
+.holder {
+  width: 400%;
+}
+.slide {
+    float: left;
+  width: 600px;
+  height: 450px;
+  position: relative;
+
+}
+#slide-0 {
+  background-image: url(dps1.jpg);
+}
+#slide-1 {
+  background-image: url(dps3.jpg);
+}
+#slide-2 {
+  background-image: url(dps4.jpg);
+}
+#slide-3 {
+  background-image: url(dps5.jpg);
+}
+.temp {
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  bottom: 15px;
+  left: 15px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 100;
+}
+.slider-nav {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+.slider-nav a {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+ background: #ddd;
+  overflow: hidden;
+  text-indent: -9999px;
+  border-radius: 50%;
+}
+.slider-nav a:active{
+  background: #000;
+}
+
+
+
+ 
+#m1 ul{ text-align: center;  font-size: 20px; font-weight: bold;
+            font-family: "Courier New", Courier, monospace;
+     position:absolute; top:160px; left:30px; height:  30px; list-style: none;  margin-bottom:10px; width: 20%;}
+#m1 ul li{
+    float: left;
+    margin-right:5px;
+}
+
+#m1 ul li a{display: block; color:#000; background:#DDDED5; text-decoration:none;  padding:0 20px; line-height:  30px;} 
+#m1 ul li a:hover{ background:#000;
+    color:#FFF;
+    transition:ease-in-out 0.5s;
+}
+ 
+#drop1 ul{ text-align: center;  font-size: 20px; font-weight: bold;
+            font-family: "Courier New", Courier, monospace;
+     position:absolute;top:160px; left:170px; height:30px; list-style:none; margin-bottom:10px; width: 200px;}
+#drop1 ul li{
+    float:none;
+    margin-right:5px;
+}
+
+#drop1 ul li{    display: block; color:#000; background:#DDDED5; text-decoration:none; padding:0 20px;line-height:  30px;} 
+#drop1 ul li:hover{ background:#000; color:#FFF; transition:ease-in-out 0.5s;
+
+}
+#drop1 ul li a{    display: block; color:#000;background:#DDDED5;text-decoration:none; padding:0 20px; line-height:  30px;
+  margin-bottom:5px;
+} 
+#drop1 ul li a:hover{      background:#000;    color:#FFF;    transition:ease-in-out 0.5s;}
+#drop1 ul#nav li#nav1 ul.sub{position:absolute; left:0px; top:30px; width:200px; display:none;
+}
+#drop1 ul#nav li#nav1:hover ul.sub{ display:block; height:400px; width:200px;
+}
+
+
+
+#m3 ul{ text-align: center;  font-size: 20px; font-weight: bold;
+            font-family: "Courier New", Courier, monospace;
+     position:absolute; top:160px; left:370px; height:30px;
+    list-style:none; margin-bottom:10px; width: 200px;
+}
+#m3 ul li{
+    float:none;
+    margin-right:5px;
+}
+
+#m3 ul li{
+    display: block; color:#000; background:#DDDED5; text-decoration:none; padding:0 20px; line-height:  30px;
+} 
+#m3 ul li:hover{
+      background:#000; color:#FFF; transition:ease-in-out 0.5s;
+
+}
+#m3 ul li a{
+    display: block; color:#000; background:#DDDED5; text-decoration:none; padding:0 20px; line-height:  30px; 
+    margin-bottom:5px;
+} 
+#m3 ul li a:hover{
+      background:#000; color:#FFF; transition:ease-in-out 0.5s;
+
+}
+#m3 ul#nav3 li#na3 ul.sub{
+    position:absolute; left:0px; top:30px; width:200px; display:none;
+}
+#m3 ul#nav3 li#na3:hover ul.sub{
+    display:block; height:400px; width:200px;
+}
+
+
+#m4 ul{ text-align: center;  font-size: 20px; font-weight: bold;
+            font-family: "Courier New", Courier, monospace;
+     position:absolute; top:160px; left:570px; height:30px;
+    list-style:none; margin-bottom:10px; width: 200px;
+}
+#m4 ul li{
+    float:none;
+    margin-right:5px;
+}
+
+#m4 ul li{
+    display: block; color:#000; background:#DDDED5; text-decoration:none; padding:0 20px; line-height:  30px;
+} 
+#m4 ul li:hover{
+      background:#000; color:#FFF; transition:ease-in-out 0.5s;
+
+}
+#m4 ul li a{
+    display: block; color:#000; background:#DDDED5; text-decoration:none; padding:0 20px; line-height:  30px; 
+    margin-bottom:5px;
+} 
+#m4 ul li a:hover{
+      background:#000; color:#FFF; transition:ease-in-out 0.5s;
+
+}
+#m4 ul#nav4 li#na4 ul.sub{
+    position:absolute; left:0px; top:30px; width:200px; display:none;
+}
+#m4 ul#nav4 li#na4:hover ul.sub{
+    display:block; height:400px; width:200px;
+}
+
+
+#m5 ul{ text-align: center;  font-size: 20px; font-weight: bold;
+            font-family: "Courier New", Courier, monospace;
+     position:absolute; top:160px; left:770px; height:  30px; list-style: none;  margin-bottom:10px; width: 20%;}
+#m5 ul li{
+    float: left;
+    margin-right:5px;
+}
+
+#m5 ul li a{display: block; color:#000; background:#DDDED5; text-decoration:none;  padding:0 20px; line-height:  30px;} 
+#m5 ul li a:hover{ background:#000;
+    color:#FFF;
+    transition:ease-in-out 0.5s;
+}
+
+
+#m6 ul{ text-align: center;  font-size: 20px; font-weight: bold;
+            font-family: "Courier New", Courier, monospace;
+     position:absolute; top:160px; left:900px; height:30px;
+    list-style:none; margin-bottom:10px; width: 180px;
+}
+#m6 ul li{
+    float:none;
+    margin-right:5px;
+    text-align:left ;
+}
+
+#m6 ul li{
+    display: block; color:#000; background:#DDDED5; text-decoration:none; padding:0 20px; line-height:  30px; width:180px;
+} 
+#m6 ul li:hover{
+      background:#000; color:#FFF; transition:ease-in-out 0.5s;
+
+}
+#m6 ul li a{
+    display: block; color:#000; background:#DDDED5; text-decoration:none; padding:0 20px; line-height:  30px; 
+    margin-bottom:5px;
+} 
+#m6 ul li a:hover{
+      background:#000; color:#FFF; transition:ease-in-out 0.5s;
+
+}
+#m6 ul#nav6 li#na6 ul.sub{
+    position:absolute; left:0px; top:30px; width:200px; display:none;
+}
+#m6 ul#nav6 li#na6:hover ul.sub{
+    display:block; height:400px; width:200px;
+}
+
+
+
+#m7 ul{ text-align: center;  font-size: 20px; font-weight: bold;
+            font-family: "Courier New", Courier, monospace;
+     position:absolute; top:160px; left:1124px; height:  30px; list-style: none;  margin-bottom:10px; width: 20%;}
+#m7 ul li{
+    float: left;
+    margin-right:5px;
+}
+
+#m7 ul li a{display: block; color:#000; background:#DDDED5; text-decoration:none;  padding:0 20px; line-height:  30px;} 
+#m7 ul li a:hover{ background:#000;
+    color:#FFF;
+    transition:ease-in-out 0.5s;
+}
+
+
+
+#m8 ul{ text-align: center;  font-size: 20px; font-weight: bold;
+            font-family: "Courier New", Courier, monospace; 
+     position:absolute; bottom:-60px; left:40px; height:30px; list-style: none;  margin-bottom:10px; width: 20%;}
+#m8 ul li{
+    float: left;
+    margin-right:5px;
+    background-color:#42F972;
+}
+
+#m8 ul li a{display: block; color:#000; background:#42F972; text-decoration:none;  padding:0 20px; line-height:  30px;} 
+#m8 ul li a:hover{ background:#0A912D;
+    color:#FFF;
+    transition:ease-in-out 0.5s;
+}
+
+
+#m9 ul{ text-align: center;  font-size: 20px; font-weight: bold;
+            font-family: "Courier New", Courier, monospace; 
+     position:absolute; bottom:-60px; right:-20px; height:30px; list-style: none;  margin-bottom:10px; width: 20%;}
+#m9 ul li{
+    float: left;
+    margin-right:5px;
+    background-color:#42F972;
+}
+
+#m9 ul li a{display: block; color:#000; background:#42F972; text-decoration:none;  padding:0 20px; line-height:  30px;} 
+#m9 ul li a:hover{ background:#0A912D;
+    color:#FFF;
+    transition:ease-in-out 0.5s;
+}
+
+
+#hd{
+    position:absolute;
+    right:20px;
+    color:white;
+    font-family:sans-serif;
+    top:220px;
+    display:block;
+    background:gray;
+    width:290px;
+    padding:10px;
+}
+
+
+#para{
+    position:absolute;
+    right:20px;
+    color:#000;
+    background-color: #F9C554;
+    font-family:sans-serif;
+    top:280px;
+    display:block;
+    width:290px;
+    padding:10px;
+}
+
+#sid{
+    position:absolute;
+    top:230px;
+    left:80px;
+    padding:5px;
+    font-family:sans-serif;
+    display:block;
+    height:400px; width:300px;
+    background-color: #F9C554;
+    font-weight:bold;
+}
+
+#sid h3{
+      font-family:sans-serif;
+      display:block;
+      background-color:gray;
+      color:white;
+      padding:4px;
+}
+
+
+
+
+
+
+
+
+

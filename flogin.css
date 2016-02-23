@@ -1,0 +1,54 @@
+
+body{ background-image:url(wallpapers101.jpg);}
+
+#frm{
+    position:absolute; top:200px; left:300px; font-family:monospace; font-size:26px; background-color: #ddd; font-weight: bold;
+    opacity:0.8;
+}
+#fdset{
+    width:700px; height:400px;
+}
+
+
+input {
+    height:20px;
+}
+#sth{ position:absolute; top:250px; }
+#leg{ font-weight:bolder; display:block; background-color:#030B6E; color:#fff; padding:8px; font-size: 30px; }
+
+#sub{ position:absolute; font-size:24px; left:200px; padding: 10px; width:100px; height:50px}
+#header{
+    background-image:url(bg1.jpg); 
+    width:1340px; height:150px;
+     position:absolute;
+     top:0px;
+}
+#htxt{
+     color:#fff; font-family: monospace; font-size:40px;
+     position:absolute; left:200px;
+}
+#htxt2{
+     color:#fff; font-family: monospace; font-size:30px;
+     position:absolute; left:200px; top:40px;
+}
+#logo { background-image:url(dpslogo.jpg) ;
+      position:absolute; top:0px; width:180px ; height:150px;
+}
+#email { position:absolute; top: 40px; right:120px;
+          color:#FFF; 
+                font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+                 font-size:24px;
+          }
+ 
+input[type=text]:focus
+{
+    box-shadow:0px 0px 5px 5px white;
+} 
+input[type=password]:focus
+{
+    box-shadow:0px 0px 5px 5px white;
+} 
+input[type=submit]:focus
+{
+    box-shadow:0px 0px 5px 5px white;
+} 
