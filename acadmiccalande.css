@@ -1,0 +1,42 @@
+body{
+    font-family: monospace;
+    font-size:20px;
+    
+}
+.e{
+    background-color: #0C696A; color:#fff;
+}
+.f{ background-color:#F7D756;  }
+#cont{ position:absolute; top:150px;  left:200px;  
+    
+}
+h1{ background-color:#555; color:#fff; padding:10px;}
+table
+{
+    height: 500px; width:1000px;
+    border: 3px solid #000;
+    border-collapse: collapse;
+    
+}
+table,tr,td,th{
+    border: 5px solid #000;
+    border-collapse: collapse;
+    
+    }
+    #header{
+    background-image:url(bg1.jpg); 
+    width:1340px; height:150px;
+     position:absolute;
+     top:0px;
+}
+#htxt{
+     color:#fff; font-family: monospace; font-size:40px;
+     position:absolute; left:200px;
+}
+#htxt2{
+     color:#fff; font-family: monospace; font-size:30px;
+     position:absolute; left:200px; top:40px;
+}
+#logo { background-image:url(dpslogo.jpg) ;
+      position:absolute; top:0px; width:180px ; height:150px;
+}
