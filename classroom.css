@@ -1,0 +1,75 @@
+#header{
+    background-image:url(bg1.jpg); 
+    width:1340px; height:150px;
+     position:absolute;
+     top:0px;
+}
+#htxt{
+     color:#fff; font-family: monospace; font-size:40px;
+     position:absolute; left:200px;
+}
+#htxt2{
+     color:#fff; font-family: monospace; font-size:30px;
+     position:absolute; left:200px; top:40px;
+}
+#logo { background-image:url(dpslogo.jpg) ;
+      position:absolute; top:0px; width:180px ; height:150px;
+}
+
+
+#pid2{ position:absolute; top:300px;
+    width:800px;
+    text-align:justify;
+    font-size:20px;
+    font-family:sans-serif;
+    display:block;
+    padding:5px;
+    background-color:#f9c554;
+  }
+  
+  h1{  position:absolute; top:200px; color:#fff; padding:5px; text-align: center;
+     font-family:monospace; font-size:40px; display:block; background-color:#555; width:100%;
+  }
+  
+  
+   #img1
+    {  position:absolute; top:00px;	  
+	  height:300px; width:500px; right:20px;
+       margin-top: 300px;
+       
+     }
+       
+     #img2
+    {	 position:absolute; top:350px; 
+	  height:300px; width:500px;
+           right:20px;
+      
+       margin-top: 300px;
+       
+        }
+        
+        	
+   
+	body
+	{
+		background-color:white;
+	}
+	
+	#background
+	{
+	
+		background-repeat:no-repeat;
+		
+	}
+	
+	div.c1
+	{
+		width:500px;
+		height:500px;
+		padding:5px;
+		margin:20px;
+		position:relative;
+		left:40%;
+		top:30%;
+		
+	
